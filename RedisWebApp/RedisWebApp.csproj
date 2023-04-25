@@ -6,10 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>065a4fa7-7484-42f2-8306-2c6716491eed</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.104" />
   </ItemGroup>
 
 </Project>
